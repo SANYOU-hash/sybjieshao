@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>SYB俱乐部 - 您的电竞与航空梦想起点</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+        }
+        .header, .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+        }
+        .highlight {
+            color: #FF6347;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            z-index: 1000;
+        }
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 999;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>SYB俱乐部 - 您的电竞与航空梦想起点</h1>
+</div>
+
+<div class="navbar">
+    <a href="#home">首页</a>
+    <a href="#pubg">PUBG分部</a>
+    <a href="#simflight">模拟飞行分部</a>
+    <a href="#virtualairline">凌云虚拟航司</a>
+</div>
+
+<a href="#" class="button" id="joinUsButton">加入我们/联系创始人</a>
+
+<div id="home" class="content">
+    <div class="section">
+        <h2>关于我们</h2>
+        <p>SYB俱乐部成立于2020年，致力于为游戏爱好者和航空爱好者提供一个交流、学习和成长的平台。我们的愿景是通过组织各种活动、比赛和培训课程，帮助成员提升技能，拓展视野，并在各自的领域中取得卓越成就。</p>
+        <p>我们不仅注重竞技成绩，更重视团队合作和个人发展。无论你是刚刚入门的新手，还是经验丰富的老手，SYB俱乐部都欢迎你的加入。在这里，你将遇到志同道合的朋友，共同探索电子竞技和航空领域的无限可能。</p>
+        <p>俱乐部定期举办各类线上线下的聚会和研讨会，邀请行业内的专家和知名选手进行分享和交流。我们还提供专业的训练设施和技术支持，确保每一位成员都能获得最佳的学习体验。</p>
+    </div>
+</div>
+
+<div id="pubg" class="content">
+    <div class="section">
+        <h2>PUBG分部 <span class="highlight">[一起享受游戏的乐趣]</span></h2>
+        <p>在SYB俱乐部的PUBG分部，我们相信游戏不仅是竞技，更是享受生活的一部分。这里汇聚了一群热爱《绝地求生》（PUBG）的朋友，大家聚在一起，共享游戏带来的快乐。</p>
+        <p>无论你是刚刚开始接触这款游戏的新手，还是已经玩了一段时间的老玩家，我们都欢迎你的加入。我们的宗旨是“轻松游戏，快乐交友”，在这里没有严苛的技术要求，也没有高强度的比赛压力。</p>
+        <p>每周我们会组织几次线上聚会，大家可以组队一起跳伞、搜集物资、对抗敌人。我们鼓励成员之间的互动和交流，分享游戏中的趣事和经验。如果你遇到任何问题或需要帮助，总有热心的队友愿意伸出援手。</p>
+        <p>除了日常的游戏活动，我们还会不定期举办一些有趣的主题活动，例如“双倍积分日”、“特别任务挑战”等。这些活动不仅增加了游戏的趣味性，也为成员们提供了更多互动的机会。</p>
+        <p>加入SYB俱乐部的PUBG分部，你不仅能体验到精彩刺激的游戏过程，还能结识一群志同道合的朋友。让我们一起在虚拟战场上并肩作战，享受每一场游戏带来的乐趣吧！</p>
+    </div>
+</div>
+
+<div id="simflight" class="content">
+    <div class="section">
+        <h2>模拟飞行分部 <span class="highlight">[天空之梦]</span></h2>
+        <p>对于那些对航空充满热情的人来说，SYB俱乐部的模拟飞行分部是一个理想的去处。我们拥有最先进的飞行模拟器和专业的教练团队，帮助你在虚拟世界中实现飞行的梦想。</p>
+        <p>从基础的飞行原理到复杂的气象条件下的飞行操作，我们将一步步指导你掌握飞行技能。此外，我们还定期组织模拟飞行比赛和空中探险活动，让你在实践中不断提升自己。</p>
+        <p>我们的模拟飞行分部不仅提供理论知识的传授，还包括实际操作的训练。无论是初学者还是有经验的飞行员，都可以在这里找到适合自己的课程和活动。我们还与多家航空公司和飞行学校建立了合作关系，为成员提供更多的发展机会。</p>
+    </div>
+</div>
+
+<div id="virtualairline" class="content">
+    <div class="section">
+        <h2>凌云虚拟航司 <span class="highlight">[链接梦想]</span></h2>
+        <p>凌云虚拟航司是SYB俱乐部的重要组成部分，专注于模拟航空公司的运营和管理。在这里，你可以体验从飞行员到空乘人员的各种角色，了解航空公司运作的每一个细节。</p>
+        <p>我们不仅提供飞行模拟，还包括航班调度、客户服务、安全管理和市场营销等方面的培训。了解更多关于凌云虚拟航司的信息，请访问：<a href="www.lingyun-SYBJIESHAO123.top" target="_blank">凌云虚拟航司官网</a></p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2025 SYB俱乐部 版权所有</p>
+</div>
+
+<!-- 弹出层 -->
+<div id="popup" class="popup">
+    <h3>加入我们/联系创始人</h3>
+    <p>加入模拟飞行分部QQ群:935582785</p>
+    <p>加入PUBG分部QQ群:706930363</p>
+    <p>创始人邮箱：sanyou123666@gmail.com</p>
+    <p>创始人备用邮箱：haoyangwang2010@163.com</p>
+    <button id="closePopup">关闭</button>
+</div>
+<div id="popupOverlay" class="popup-overlay"></div>
+
+<script>
+    document.getElementById('joinUsButton').addEventListener('click', function(event) {
+        event.preventDefault();
+        document.getElementById('popup').style.display = 'block';
+        document.getElementById('popupOverlay').style.display = 'block';
+    });
+
+    document.getElementById('closePopup').addEventListener('click', function() {
+        document.getElementById('popup').style.display = 'none';
+        document.getElementById('popupOverlay').style.display = 'none';
+    });
+</script>
+
+</body>
+</html>
