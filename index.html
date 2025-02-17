@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SYB俱乐部 - 您的电竞与航空梦想起点</title>
+    <title>SYB Club - Your E-Sports and Aviation Dream Start</title>
     <link rel="shortcut icon" href="favicon.ico">
     <meta name="baidu-site-verification" content="codeva-4RQfLchaSJ" />
     <!-- Google tag (gtag.js) -->
@@ -113,71 +113,174 @@
 <body>
 
 <div class="header">
-    <h1>SYB俱乐部 - 您的电竞与航空梦想起点</h1>
+    <h1 id="headerTitle">SYB Club - Your E-Sports and Aviation Dream Start</h1>
 </div>
 
 <div class="navbar">
-    <a href="#home">首页</a>
-    <a href="#pubg">PUBG分部</a>
-    <a href="#simflight">模拟飞行分部</a>
-    <a href="#virtualairline">凌云虚拟航司</a>
+    <a href="#home" id="navHome">Home</a>
+    <a href="#pubg" id="navPubg">PUBG Division</a>
+    <a href="#simflight" id="navSimflight">Simulation Flight Division</a>
+    <a href="#virtualairline" id="navVirtualairline">Skyward Virtual Airlines</a>
+    <button onclick="toggleLanguage()" class="button" style="background-color: #555; margin-top: 10px;">Toggle Language</button>
 </div>
 
-<a href="#" class="button" id="joinUsButton">加入我们/联系创始人</a>
+<a href="#" class="button" id="joinUsButton">Join Us/Contact Founder</a>
 
 <div id="home" class="content">
     <div class="section">
-        <h2>关于我们</h2>
-        <p>SYB俱乐部成立于2020年，致力于为游戏爱好者和航空爱好者提供一个交流、学习和成长的平台。我们的愿景是通过组织各种活动、比赛和培训课程，帮助成员提升技能，拓展视野，并在各自的领域中取得卓越成就。</p>
-        <p>我们不仅注重竞技成绩，更重视团队合作和个人发展。无论你是刚刚入门的新手，还是经验丰富的老手，SYB俱乐部都欢迎你的加入。在这里，你将遇到志同道合的朋友，共同探索电子竞技和航空领域的无限可能。</p>
-        <p>俱乐部定期举办各类线上线下的聚会和研讨会，邀请行业内的专家和知名选手进行分享和交流。我们还提供专业的训练设施和技术支持，确保每一位成员都能获得最佳的学习体验。</p>
+        <h2 id="aboutUsTitle">About Us</h2>
+        <p id="aboutUsContent">SYB Club was founded in 2020, dedicated to providing a platform for game enthusiasts and aviation enthusiasts to exchange, learn, and grow. Our vision is to help members improve their skills, broaden their horizons, and achieve excellence in their respective fields through organizing various activities, competitions, and training courses.</p>
+        <p>We focus not only on competitive results but also on team collaboration and personal development. Whether you are a beginner or an experienced player, SYB Club welcomes your participation. Here, you will meet like-minded friends and explore endless possibilities in e-sports and aviation together.</p>
+        <p>The club regularly holds online and offline gatherings and seminars, inviting experts and famous players in the industry to share and communicate. We also provide professional training facilities and technical support to ensure that every member can have the best learning experience.</p>
     </div>
 </div>
 
 <div id="pubg" class="content">
     <div class="section">
-        <h2>PUBG分部 <span class="highlight">[一起享受游戏的乐趣]</span></h2>
-        <p>在SYB俱乐部的PUBG分部，我们相信游戏不仅是竞技，更是享受生活的一部分。这里汇聚了一群热爱《绝地求生》（PUBG）的朋友，大家聚在一起，共享游戏带来的快乐。</p>
-        <p>无论你是刚刚开始接触这款游戏的新手，还是已经玩了一段时间的老玩家，我们都欢迎你的加入。我们的宗旨是“轻松游戏，快乐交友”，在这里没有严苛的技术要求，也没有高强度的比赛压力。</p>
-        <p>每周我们会组织几次线上聚会，大家可以组队一起跳伞、搜集物资、对抗敌人。我们鼓励成员之间的互动和交流，分享游戏中的趣事和经验。如果你遇到任何问题或需要帮助，总有热心的队友愿意伸出援手。</p>
-        <p>除了日常的游戏活动，我们还会不定期举办一些有趣的主题活动，例如“双倍积分日”、“特别任务挑战”等。这些活动不仅增加了游戏的趣味性，也为成员们提供了更多互动的机会。</p>
-        <p>加入SYB俱乐部的PUBG分部，你不仅能体验到精彩刺激的游戏过程，还能结识一群志同道合的朋友。让我们一起在虚拟战场上并肩作战，享受每一场游戏带来的乐趣吧！</p>
+        <h2 id="pubgTitle">PUBG Division <span class="highlight">[Enjoy the fun of gaming together]</span></h2>
+        <p id="pubgContent">In the PUBG division of SYB Club, we believe that gaming is not just competition but also enjoyment. Here, a group of people who love PlayerUnknown's Battlegrounds (PUBG) gather to share the joy brought by the game.</p>
+        <p>No matter if you are a newcomer just starting out with this game or an old player with some experience, we welcome your joining. Our motto is "Easy Gaming, Happy Making Friends," where there are no strict technical requirements and no high-intensity competition pressure.</p>
+        <p>We organize several online gatherings every week, allowing you to form teams, parachute together, collect supplies, and fight against enemies. We encourage interactions and exchanges among members, sharing funny stories and experiences from the game. If you encounter any problems or need help, there are always enthusiastic teammates willing to lend a hand.</p>
+        <p>In addition to daily gaming activities, we occasionally hold interesting theme events such as "Double Points Day" and "Special Task Challenges." These activities not only add more fun to the game but also provide more opportunities for interaction among members.</p>
+        <p>By joining the PUBG division of SYB Club, you can not only experience exciting gameplay processes but also make many like-minded friends. Let's fight side by side on the virtual battlefield and enjoy the fun of each game!</p>
     </div>
 </div>
 
 <div id="simflight" class="content">
     <div class="section">
-        <h2>模拟飞行分部 <span class="highlight">[天空之梦]</span></h2>
-        <p>对于那些对航空充满热情的人来说，SYB俱乐部的模拟飞行分部是一个理想的去处。</p>
-        <p>从基础的飞行原理到复杂的气象条件下的飞行操作，我们将一步步指导你掌握飞行技能。此外，我们还定期组织模拟飞行比赛和空中探险活动，让你在实践中不断提升自己。</p>
-        <p>我们的模拟飞行分部不仅提供理论知识的传授，还包括实际操作的训练。无论是初学者还是有经验的飞行员，都可以在这里找到适合自己的活动。</p>
+        <h2 id="simflightTitle">Simulation Flight Division <span class="highlight">[Dream Sky]</span></h2>
+        <p id="simflightContent">For those passionate about aviation, the simulation flight division of SYB Club is an ideal place.</p>
+        <p>From basic principles of flying to complex operations under meteorological conditions, we will guide you step-by-step to master flying skills. In addition, we regularly organize simulation flight competitions and aerial exploration activities, allowing you to improve yourself in practice.</p>
+        <p>Our simulation flight division not only provides theoretical knowledge instruction but also includes practical operation training. Whether you are a beginner or an experienced pilot, you can find suitable activities here.</p>
     </div>
 </div>
 
 <div id="virtualairline" class="content">
     <div class="section">
-        <h2>凌云虚拟航司 <span class="highlight">[链接梦想]</span></h2>
-        <p>凌云虚拟航司是SYB俱乐部的重要组成部分，专注于模拟航空公司的运营和管理。在这里，你可以体验从飞行员到空乘人员的各种角色，了解航空公司运作的每一个细节。</p>
-        <p>我们不仅提供飞行模拟，还包括航班调度、客户服务、安全管理和市场营销等方面的培训。了解更多关于凌云虚拟航司的信息，请访问：<a href="http://www.lingyun-sybjieshao123.top" target="_blank">凌云虚拟航司官网</a></p>
+        <h2 id="virtualairlineTitle">Skyward Virtual Airlines <span class="highlight">[Link Dreams]</span></h2>
+        <p id="virtualairlineContent">Skyward Virtual Airlines is an important part of SYB Club, focusing on simulating airline operations and management. Here, you can experience roles ranging from pilots to cabin crew, understanding every detail of airline operations.</p>
+        <p>We offer not only flight simulations but also training in areas such as flight scheduling, customer service, safety management, and marketing. For more information about Skyward Virtual Airlines, please visit: <a href="http://www.lingyun-sybjieshao123.top" target="_blank">Skyward Virtual Airlines Official Website</a></p>
     </div>
 </div>
 
 <div class="footer">
-    <p>&copy; 2025 SYB俱乐部 版权所有</p>
+    <p id="footerContent">&copy; 2025 SYB Club All Rights Reserved</p>
 </div>
 
 <!-- 弹出层 -->
 <div id="popup" class="popup">
-    <h3>加入我们/联系创始人</h3>
-    <p>加入模拟飞行分部QQ群:935582785</p>
-    <p>加入PUBG分部QQ群:706930363</p>
-    <p>创始人邮箱：sanyou123666@gmail.com</p>
-    <p>创始人备用邮箱：haoyangwang2010@163.com</p>
-    <button id="closePopup">关闭</button>
+    <h3 id="popupTitle">Join Us/Contact Founder</h3>
+    <p id="popupContent">Join Simulation Flight Division QQ Group: 935582785</p>
+    <p>Join PUBG Division QQ Group: 706930363</p>
+    <p>Founder Email: sanyou123666@gmail.com</p>
+    <p>Alternate Founder Email: haoyangwang2010@163.com</p>
+    <button id="closePopup">Close</button>
 </div>
 <div id="popupOverlay" class="popup-overlay"></div>
 
 <script>
+    const translations = {
+        headerTitle: {
+            en: "SYB Club - Your E-Sports and Aviation Dream Start",
+            zh: "SYB俱乐部 - 您的电竞与航空梦想起点"
+        },
+        navHome: {
+            en: "Home",
+            zh: "首页"
+        },
+        navPubg: {
+            en: "PUBG Division",
+            zh: "PUBG分部"
+        },
+        navSimflight: {
+            en: "Simulation Flight Division",
+            zh: "模拟飞行分部"
+        },
+        navVirtualairline: {
+            en: "Skyward Virtual Airlines",
+            zh: "凌云虚拟航司"
+        },
+        joinUsButton: {
+            en: "Join Us/Contact Founder",
+            zh: "加入我们/联系创始人"
+        },
+        aboutUsTitle: {
+            en: "About Us",
+            zh: "关于我们"
+        },
+        aboutUsContent: {
+            en: "SYB Club was founded in 2020, dedicated to providing a platform for game enthusiasts and aviation enthusiasts to exchange, learn, and grow. Our vision is to help members improve their skills, broaden their horizons, and achieve excellence in their respective fields through organizing various activities, competitions, and training courses.",
+            zh: "SYB俱乐部成立于2020年，致力于为游戏爱好者和航空爱好者提供一个交流、学习和成长的平台。我们的愿景是通过组织各种活动、比赛和培训课程，帮助成员提升技能，拓展视野，并在各自的领域中取得卓越成就。"
+        },
+        pubgTitle: {
+            en: "PUBG Division [Enjoy the fun of gaming together]",
+            zh: "PUBG分部 [一起享受游戏的乐趣]"
+        },
+        pubgContent: {
+            en: "In the PUBG division of SYB Club, we believe that gaming is not just competition but also enjoyment. Here, a group of people who love PlayerUnknown's Battlegrounds (PUBG) gather to share the joy brought by the game.",
+            zh: "在SYB俱乐部的PUBG分部，我们相信游戏不仅是竞技，更是享受生活的一部分。这里汇聚了一群热爱《绝地求生》（PUBG）的朋友，大家聚在一起，共享游戏带来的快乐。"
+        },
+        simflightTitle: {
+            en: "Simulation Flight Division [Dream Sky]",
+            zh: "模拟飞行分部 [天空之梦]"
+        },
+        simflightContent: {
+            en: "For those passionate about aviation, the simulation flight division of SYB Club is an ideal place.",
+            zh: "对于那些对航空充满热情的人来说，SYB俱乐部的模拟飞行分部是一个理想的去处。"
+        },
+        virtualairlineTitle: {
+            en: "Skyward Virtual Airlines [Link Dreams]",
+            zh: "凌云虚拟航司 [链接梦想]"
+        },
+        virtualairlineContent: {
+            en: "Skyward Virtual Airlines is an important part of SYB Club, focusing on simulating airline operations and management. Here, you can experience roles ranging from pilots to cabin crew, understanding every detail of airline operations.<br><br>We offer not only flight simulations but also training in areas such as flight scheduling, customer service, safety management, and marketing. For more information about Skyward Virtual Airlines, please visit: <a href='http://www.lingyun-sybjieshao123.top' target='_blank'>Skyward Virtual Airlines Official Website</a>",
+            zh: "凌云虚拟航司是SYB俱乐部的重要组成部分，专注于模拟航空公司的运营和管理。在这里，你可以体验从飞行员到空乘人员的各种角色，了解航空公司运作的每一个细节。<br><br>我们不仅提供飞行模拟，还包括航班调度、客户服务、安全管理和市场营销等方面的培训。了解更多关于凌云虚拟航司的信息，请访问：<a href='http://www.lingyun-sybjieshao123.top' target='_blank'>凌云虚拟航司官网</a>"
+        },
+        footerContent: {
+            en: "&copy; 2025 SYB Club All Rights Reserved",
+            zh: "&copy; 2025 SYB俱乐部 版权所有"
+        },
+        popupTitle: {
+            en: "Join Us/Contact Founder",
+            zh: "加入我们/联系创始人"
+        },
+        popupContent: {
+            en: "Join Simulation Flight Division QQ Group: 935582785<br>Join PUBG Division QQ Group: 706930363<br>Founder Email: sanyou123666@gmail.com<br>Alternate Founder Email: haoyangwang2010@163.com",
+            zh: "加入模拟飞行分部QQ群:935582785<br>加入PUBG分部QQ群:706930363<br>创始人邮箱：sanyou123666@gmail.com<br>创始人备用邮箱：haoyangwang2010@163.com"
+        }
+    };
+
+    let currentLang = 'en';
+
+    function setLanguage(lang) {
+        currentLang = lang;
+        document.getElementById('headerTitle').innerText = translations.headerTitle[currentLang];
+        document.getElementById('navHome').innerText = translations.navHome[currentLang];
+        document.getElementById('navPubg').innerText = translations.navPubg[currentLang];
+        document.getElementById('navSimflight').innerText = translations.navSimflight[currentLang];
+        document.getElementById('navVirtualairline').innerText = translations.navVirtualairline[currentLang];
+        document.getElementById('joinUsButton').innerText = translations.joinUsButton[currentLang];
+        document.getElementById('aboutUsTitle').innerText = translations.aboutUsTitle[currentLang];
+        document.getElementById('aboutUsContent').innerHTML = translations.aboutUsContent[currentLang];
+        document.getElementById('pubgTitle').innerHTML = translations.pubgTitle[currentLang];
+        document.getElementById('pubgContent').innerHTML = translations.pubgContent[currentLang];
+        document.getElementById('simflightTitle').innerHTML = translations.simflightTitle[currentLang];
+        document.getElementById('simflightContent').innerHTML = translations.simflightContent[currentLang];
+        document.getElementById('virtualairlineTitle').innerHTML = translations.virtualairlineTitle[currentLang];
+        document.getElementById('virtualairlineContent').innerHTML = translations.virtualairlineContent[currentLang];
+        document.getElementById('footerContent').innerHTML = translations.footerContent[currentLang];
+        document.getElementById('popupTitle').innerText = translations.popupTitle[currentLang];
+        document.getElementById('popupContent').innerHTML = translations.popupContent[currentLang];
+    }
+
+    function toggleLanguage() {
+        currentLang = currentLang === 'en' ? 'zh' : 'en';
+        setLanguage(currentLang);
+    }
+
+    // Set default language to English
+    setLanguage('en');
+
     document.getElementById('joinUsButton').addEventListener('click', function(event) {
         event.preventDefault();
         document.getElementById('popup').style.display = 'block';
@@ -192,6 +295,3 @@
 
 </body>
 </html>
-
-
-
